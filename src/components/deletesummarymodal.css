@@ -1,0 +1,85 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .buttons .delete-button {
+    background-color: #DC3545 !important;
+  }
+  .buttons .delete-button:hover {
+    background-color: rgb(217, 5, 5) !important;
+  }
+
+  .colored-toast.swal2-icon-success {
+    background-color: #a5dc86 !important;
+}
+
+  .colored-toast.swal2-icon-error {
+    background-color: #f27474 !important;
+}
+
+  .colored-toast.swal2-icon-warning {
+    background-color: #f8bb86 !important;
+}
+
+  .colored-toast.swal2-icon-info {
+    background-color: #3fc3ee !important;
+}
+
+  .colored-toast.swal2-icon-question {
+    background-color: #87adbd !important;
+}
+
+  .colored-toast .swal2-title {
+    color: white;
+}
+
+  .colored-toast .swal2-close {
+    color: white;
+}
+
+  .colored-toast .swal2-html-container {
+    color: white;
+}
+  

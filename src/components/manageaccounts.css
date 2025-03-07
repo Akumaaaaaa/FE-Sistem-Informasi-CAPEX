@@ -1,0 +1,178 @@
+.dashboard-content {
+  margin-left: 250px;
+  margin-top: -150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 100%;
+}
+
+.dashboard-content h2 {
+  margin: 30px 0;
+}
+
+.dashboard-content p {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.create-user-button {
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: #098e45;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-user-button:hover {
+  background-color: #025427;
+}
+
+.background-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  z-index: -1;
+}
+
+.account-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.account-card {
+  background-color: #f0f0f0;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.account-card p {
+  font-weight: bold;
+  text-align: center; 
+}
+
+.total-accounts {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.account-card-text {
+  text-align: center; 
+  font-size: 18px;
+  color: #666;  
+}
+
+.account-table {
+  margin-top: 30px;
+  flex: 1;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 200px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-radius: 5px;
+  overflow: hidden; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+td:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold; 
+}
+
+tr {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e2e2e2;
+}
+
+.no-column {
+  width: 10%;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.edit-button {
+  padding: 8px 40px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.edit-button:hover {
+  background-color: #013e80;
+}
+
+.edit-button i {
+  margin-right: 6px;
+}
+
+.delete-button {
+  padding: 8px 40px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #76030f; 
+}
+
+.delete-button i {
+  margin-right: 6px;
+}

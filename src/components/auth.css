@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.849);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.wrapper header {
+    margin-bottom: 20px;
+}
+
+.wrapper header img {
+    width: 150px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.wrapper header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.wrapper header p {
+    font-size: 14px;
+    color: #666;
+}
+
+.wrapper h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333;
+    padding: 20px 45px 20px 20px;
+    transition: all 0.3s ease;
+}
+
+.input-box input::placeholder {
+    color: #666;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #666;
+}
+
+.input-box input:hover {
+    transform: scale(1.05);
+    border-color: #333;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.wrapper button:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+.wrapper .register-link,
+.wrapper .login-link {
+    font-size: 14.5px;
+    color: #333;
+    margin: 20px 0 15px;
+}
+
+.register-link p a,
+.login-link p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover,
+.login-link p a:hover {
+    text-decoration: underline;
+}
+
+.colored-toast.swal2-icon-success {
+    background-color: #a5dc86 !important;
+}
+
+.colored-toast.swal2-icon-error {
+    background-color: #f27474 !important;
+}
+
+.colored-toast.swal2-icon-warning {
+    background-color: #f8bb86 !important;
+}
+
+.colored-toast.swal2-icon-info {
+    background-color: #3fc3ee !important;
+}
+
+.colored-toast.swal2-icon-question {
+    background-color: #87adbd !important;
+}
+
+.colored-toast .swal2-title {
+    color: white;
+}
+
+.colored-toast .swal2-close {
+    color: white;
+}
+
+.colored-toast .swal2-html-container {
+    color: white;
+}
