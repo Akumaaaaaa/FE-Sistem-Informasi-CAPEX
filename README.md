@@ -7,8 +7,7 @@ Integrated Information System to Monitor and Manage CAPEX Digitally
 ## Features
 - **Login and Register**: Users can create accounts and log in securely.
 - **Logout**: Users can end their current authenticated session.
-- **Live Searching**: Search for articles and content in real-time.
-- **Sorting**: Sort articles by various criteria for easy navigation.
+- **CRUD**: Users can manipulate data from a specific role, including Create, Read, Update, Delete.
 - **Export**: Export table into .pdf file.
 
 ## Programming Languages ☑️
@@ -25,16 +24,8 @@ Integrated Information System to Monitor and Manage CAPEX Digitally
 
 ## Screenshots 💻
 <p align="center">
-  <img src="" alt="Screenshot 1" height="100" />
-  <img src="" alt="Screenshot 2" height="100" />
-  <img src="" alt="Screenshot 3" height="100" />
-  <img src="" alt="Screenshot 4" height="100" />
-</p>
-
-## Screenshots 📱
-<p align="center">
-  <img src="" alt="Screenshot 1" width="100" />
-  <img src="" alt="Screenshot 2" width="100" />
-  <img src="" alt="Screenshot 3" width="100" />
-  <img src="" alt="Screenshot 4" width="100" />
+  <img src="https://imgur.com/rBItfqT.png" alt="Screenshot 1" height="100" />
+  <img src="https://imgur.com/UXsRTe8.png" alt="Screenshot 2" height="100" />
+  <img src="https://imgur.com/qNpYHTz.png" alt="Screenshot 3" height="100" />
+  <img src="https://imgur.com/vzmuSkU.png" alt="Screenshot 4" height="100" />
 </p>
