@@ -2,7 +2,7 @@
 Integrated Information System to Monitor and Manage CAPEX Digitally
 
 ## Full Docummentation 🛠️
-* Figma - [Use Case, Activity, Class, Wireframe](https://www.figma.com/design/53aiKuTst8t0Rq7f2Gqtqr/SI-Monitoring-CAPEX?node-id=334-2&t=5Hm5BEhYbHIOZon4-1)
+* Use Case, Activity, Class, & Wireframe - [Figma](https://www.figma.com/design/53aiKuTst8t0Rq7f2Gqtqr/SI-Monitoring-CAPEX?node-id=334-2&t=5Hm5BEhYbHIOZon4-1)
 
 ## Features
 - **Login and Register**: Users can create accounts and log in securely.
